@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Struts2">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Server/apache-tomcat-8.5.54.zip"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/commons-fileupload-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/commons-lang3-3.8.1.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/freemarker-2.3.28.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/google-collections-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/google-gxp-0.2.4-beta.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/log4j-api-2.13.3.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/log4j-core-2.13.3.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/ognl-3.1.26.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/struts2-core-2.5.22.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/struts2-json-plugin-2.5.22.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/struts2/xwork-core-2.3.37.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-aop-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-aop-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-aop-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-aspects-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-aspects-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-aspects-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-beans-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-beans-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-beans-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-context-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-context-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-context-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-context-indexer-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-context-indexer-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-context-indexer-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-context-support-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-context-support-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-context-support-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-core-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-core-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-core-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-expression-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-expression-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-expression-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-instrument-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-instrument-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-instrument-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-jcl-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-jcl-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-jcl-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-jdbc-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-jdbc-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-jdbc-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-jms-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-jms-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-jms-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-messaging-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-messaging-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-messaging-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-orm-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-orm-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-orm-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-oxm-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-oxm-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-oxm-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-test-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-test-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-test-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-tx-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-tx-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-tx-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-web-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-web-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-web-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-webflux-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-webflux-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-webflux-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-webmvc-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-webmvc-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-webmvc-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-websocket-5.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-websocket-5.0.7.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/spring/spring-websocket-5.0.7.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/hibernate-commons-annotations-4.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/hibernate-core-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/jandex-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/jboss-logging-3.1.3.GA.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/suprada/Pictures/Downloads/Sakila-Film-Management-master/Resources/Jars/hibernate/mysql-connector-java-8.0.19.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
