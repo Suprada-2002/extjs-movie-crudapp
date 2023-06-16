@@ -17,4 +17,7 @@ Simple CRUD Application and Pagination, with ExtJS for frontend and Java as back
 - Add the `Tomcat` server to the project and add the configuration
 - Run the server
 
+## Want to Contribute ?
 
+Awesome! If you want to contribute to this project, you're always welcome!
+Have any questions, doubts or want to present your opinions, views? You're always welcome. You can mail me at <b>supradatripathy789@gmail.com</b> or make an issue.
