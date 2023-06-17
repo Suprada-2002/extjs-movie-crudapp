@@ -1,4 +1,4 @@
-package com.debanshu777.daoImpl;
+package com.suprada.daoImpl;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

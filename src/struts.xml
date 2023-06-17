@@ -5,10 +5,10 @@
 
 <struts>
     <package name="default" extends="json-default">
-		<action name="fetch" class="com.debanshu777.actions.Fetch"/>
-		<action name="add" class="com.debanshu777.actions.Add"/>
-		<action name="edit" class="com.debanshu777.actions.Edit"/>
-		<action name="delete" class="com.debanshu777.actions.Delete"/>
-		<action name="getdata" class="com.debanshu777.actions.Getdata"/>
+		<action name="fetch" class="com.suprada.actions.Fetch"/>
+		<action name="add" class="com.suprada.actions.Add"/>
+		<action name="edit" class="com.suprada.actions.Edit"/>
+		<action name="delete" class="com.suprada.actions.Delete"/>
+		<action name="getdata" class="com.suprada.actions.Getdata"/>
 	</package>
 </struts>

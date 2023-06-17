@@ -1,4 +1,4 @@
-package com.debanshu777.actions;
+package com.suprada.actions;
 
 import java.io.IOException;
 
@@ -6,8 +6,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.struts2.ServletActionContext;
 
-import com.debanshu777.daoImpl.ApplicationContextSingleton;
-import com.debanshu777.daoImpl.FilmDAO;
+import com.suprada.daoImpl.ApplicationContextSingleton;
+import com.suprada.daoImpl.FilmDAO;
 
 
 public class Fetch{

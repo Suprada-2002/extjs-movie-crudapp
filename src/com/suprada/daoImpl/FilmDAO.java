@@ -1,4 +1,4 @@
-package com.debanshu777.daoImpl;
+package com.suprada.daoImpl;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.debanshu777.model.FilmPOJO;
+import com.suprada.model.FilmPOJO;
 import com.google.gson.Gson;
 
 

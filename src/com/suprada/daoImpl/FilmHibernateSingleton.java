@@ -1,11 +1,11 @@
-package com.debanshu777.daoImpl;
+package com.suprada.daoImpl;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
-import com.debanshu777.model.FilmPOJO;
+import com.suprada.model.FilmPOJO;
 
 public class FilmHibernateSingleton {
 	

@@ -1,4 +1,4 @@
-package com.debanshu777.daoImpl;
+package com.suprada.daoImpl;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -13,8 +13,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-import com.debanshu777.dao.FilmHibernateDAOInterface;
-import com.debanshu777.model.FilmPOJO;
+import com.suprada.dao.FilmHibernateDAOInterface;
+import com.suprada.model.FilmPOJO;
 import com.google.gson.Gson;
 
 

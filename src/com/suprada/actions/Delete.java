@@ -1,9 +1,9 @@
-package com.debanshu777.actions;
+package com.suprada.actions;
 
 
-import com.debanshu777.daoImpl.ApplicationContextSingleton;
-import com.debanshu777.manager.FilmManagerInterface;
-import com.debanshu777.managerImpl.FilmManager;
+import com.suprada.daoImpl.ApplicationContextSingleton;
+import com.suprada.manager.FilmManagerInterface;
+import com.suprada.managerImpl.FilmManager;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class Delete extends ActionSupport{

@@ -1,6 +1,6 @@
-package com.debanshu777.dao;
+package com.suprada.dao;
 
-import com.debanshu777.model.FilmPOJO;
+import com.suprada.model.FilmPOJO;
 
 public interface FilmHibernateDAOInterface {
 

@@ -1,4 +1,4 @@
-package com.debanshu777.daoImpl;
+package com.suprada.daoImpl;
 
 public class Constants {
 	// JDBC driver name and database URL

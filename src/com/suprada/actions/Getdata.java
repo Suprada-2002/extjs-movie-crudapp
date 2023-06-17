@@ -1,4 +1,4 @@
-package com.debanshu777.actions;
+package com.suprada.actions;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -6,11 +6,11 @@ import java.io.PrintWriter;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.struts2.ServletActionContext;
 
-import com.debanshu777.daoImpl.ApplicationContextSingleton;
-import com.debanshu777.daoImpl.Constants;
-import com.debanshu777.daoImpl.Utility;
-import com.debanshu777.manager.FilmManagerInterface;
-import com.debanshu777.managerImpl.FilmManager;
+import com.suprada.daoImpl.ApplicationContextSingleton;
+import com.suprada.daoImpl.Constants;
+import com.suprada.daoImpl.Utility;
+import com.suprada.manager.FilmManagerInterface;
+import com.suprada.managerImpl.FilmManager;
 import com.opensymphony.xwork2.ActionSupport;
  
 public class Getdata extends ActionSupport{

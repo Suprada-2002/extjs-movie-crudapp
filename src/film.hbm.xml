@@ -4,7 +4,7 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name = "com.debanshu777.model.FilmPOJO" table ="film">
+	<class name = "com.suprada.model.FilmPOJO" table ="film">
  
       <meta attribute = "class-description">
          This class contains the film detail. 

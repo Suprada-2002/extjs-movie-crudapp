@@ -1,7 +1,7 @@
-package com.debanshu777.manager;
+package com.suprada.manager;
 
-import com.debanshu777.daoImpl.FilmHibernateDAO;
-import com.debanshu777.model.FilmPOJO;
+import com.suprada.daoImpl.FilmHibernateDAO;
+import com.suprada.model.FilmPOJO;
 
 public interface FilmManagerInterface {
 	

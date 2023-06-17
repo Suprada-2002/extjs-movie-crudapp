@@ -1,18 +1,20 @@
-package com.debanshu777.actions;
+package com.suprada.actions;
+
+import java.io.IOException;
+
+import com.suprada.daoImpl.ApplicationContextSingleton;
+import com.suprada.daoImpl.Constants;
+import com.suprada.daoImpl.Utility;
+import com.suprada.manager.FilmManagerInterface;
+import com.suprada.managerImpl.FilmManager;
+import com.suprada.model.FilmPOJO;
 
 
-import com.debanshu777.daoImpl.ApplicationContextSingleton;
-import com.debanshu777.daoImpl.Constants;
-import com.debanshu777.daoImpl.Utility;
-import com.debanshu777.manager.FilmManagerInterface;
-import com.debanshu777.managerImpl.FilmManager;
-import com.debanshu777.model.FilmPOJO;
+public class Edit{
 
-
-public class Add {
-	private static final long serialVersionUID = 1L;
 	private FilmPOJO tmp;
 	private FilmManagerInterface manager;
+	private String id;
 	private String title;
 	private String description;
 	private String release_year;
@@ -20,6 +22,12 @@ public class Add {
 	private String rating;
 	private String language;
 	private String secial_features;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
 	public String getTitle() {
 		return title;
 	}
@@ -62,25 +70,22 @@ public class Add {
 	public void setSecial_features(String secial_features) {
 		this.secial_features = secial_features;
 	}
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
-	public String execute() {
+	public String execute() throws IOException {
 		
-		tmp=(FilmPOJO)ApplicationContextSingleton.getApplicationContext().getBean("filmPOJO");
-		manager=(FilmManager)ApplicationContextSingleton.getApplicationContext().getBean("filmManger");
-		tmp.setTitle(getTitle());
-		tmp.setDescription(getDescription());
-		tmp.setRelease_year(getRelease_year());
-		tmp.setDirector_name(getDirector_name());
-		tmp.setRating(getRating());
-		tmp.setLanguage_id(Utility.languageId(getLanguage()));
-		System.out.println(getSecial_features().replace(", ",","));
-		tmp.setSecial_features(getSecial_features().replace(", ",","));
-		tmp.setIs_disabled(Constants.getIsDisabled());
-		manager.insert(tmp);
-		
+		 tmp=(FilmPOJO)ApplicationContextSingleton.getApplicationContext().getBean("filmPOJO");
+		 manager=(FilmManager)ApplicationContextSingleton.getApplicationContext().getBean("filmManger");
+		 tmp.setFilm_id(Short.parseShort(getId()));
+		 tmp.setTitle(getTitle());
+		 tmp.setDescription(getDescription());
+		 tmp.setRelease_year(getRelease_year());
+		 tmp.setLanguage_id(Utility.languageId(getLanguage()));
+		 tmp.setDirector_name(getDirector_name());
+		 tmp.setRating(getRating());
+		 tmp.setIs_disabled(Constants.getIsDisabled());
+		 tmp.setSecial_features(getSecial_features().replace(", ",","));
+		 manager.update(tmp);
+
 		return null;
 	}
-	
+
 }

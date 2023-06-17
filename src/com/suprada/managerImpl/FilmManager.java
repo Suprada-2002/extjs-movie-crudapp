@@ -1,11 +1,11 @@
-package com.debanshu777.managerImpl;
+package com.suprada.managerImpl;
 
-import com.debanshu777.dao.FilmHibernateDAOInterface;
-import com.debanshu777.daoImpl.ApplicationContextSingleton;
-import com.debanshu777.daoImpl.FilmDAO;
-import com.debanshu777.daoImpl.FilmHibernateDAO;
-import com.debanshu777.manager.FilmManagerInterface;
-import com.debanshu777.model.FilmPOJO;
+import com.suprada.dao.FilmHibernateDAOInterface;
+import com.suprada.daoImpl.ApplicationContextSingleton;
+import com.suprada.daoImpl.FilmDAO;
+import com.suprada.daoImpl.FilmHibernateDAO;
+import com.suprada.manager.FilmManagerInterface;
+import com.suprada.model.FilmPOJO;
 
 public class FilmManager implements FilmManagerInterface{
 	private static FilmHibernateDAOInterface filmHibernateDAO;

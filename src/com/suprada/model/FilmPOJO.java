@@ -1,4 +1,4 @@
-package com.debanshu777.model;
+package com.suprada.model;
 
 public class FilmPOJO {
 	
