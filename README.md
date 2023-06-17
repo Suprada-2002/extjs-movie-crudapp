@@ -13,6 +13,7 @@ Simple CRUD Application and Pagination, with ExtJS for frontend and Java as back
 
 ## Steps To Setup
 - Set the DB Dump in SQLYOG or MySQL Workbench
+- Add dependency (Gson, Mysql connector, Spring, Struts2, Hibernate)
 - change `hibernate.cfg.xml` according to requirement
 - Add the `Tomcat` server to the project and add the configuration
 - Run the server
