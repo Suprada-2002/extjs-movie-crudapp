@@ -14,7 +14,8 @@ import com.google.gson.Gson;
 public class FilmDAO {
 	
 	  
-	
+		// creates a new connection to the DB
+		// db url, username and password are stored in constants file, change if required
 		protected Connection getConnection() {
 			Connection connection = null;
 			try {
